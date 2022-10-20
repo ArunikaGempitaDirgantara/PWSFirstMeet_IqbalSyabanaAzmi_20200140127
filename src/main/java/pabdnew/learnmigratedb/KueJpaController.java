@@ -28,7 +28,7 @@ public class KueJpaController implements Serializable {
     public KueJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("pabdnew_learnmigratedb_jar_0.0.1-SNAPSHOTPU");;
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("pabdnew_learnmigratedb_jar_0.0.1-SNAPSHOTPU");
 
     public EntityManager getEntityManager() {
         return emf.createEntityManager();

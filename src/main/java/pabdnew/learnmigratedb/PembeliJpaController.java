@@ -28,7 +28,7 @@ public class PembeliJpaController implements Serializable {
     public PembeliJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("pabdnew_learnmigratedb_jar_0.0.1-SNAPSHOTPU");;
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("pabdnew_learnmigratedb_jar_0.0.1-SNAPSHOTPU");
 
     public EntityManager getEntityManager() {
         return emf.createEntityManager();
